@@ -8,6 +8,4 @@ nodeGroupAlias:
   ${settings.nodeGroup}: nosqldb
 
 onInstall:
-  env.control.SetCloudletsCountByGroup [nosqldb]:
-    fixedCloudlets: 1
-    flexibleCloudlets: 16
+  log: dummy
